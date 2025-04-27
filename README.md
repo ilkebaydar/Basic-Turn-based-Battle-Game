@@ -20,7 +20,7 @@ In this project, the player faces off against an enemy in a turn-based battle.
 - Weapon is an abstract class.
 - Sword and Dagger inherit from Weapon.
 - Enemy is a simple class.
-- 
+  
 Game holds:
 an ArmoredPlayer,
 a HealerPlayer,
