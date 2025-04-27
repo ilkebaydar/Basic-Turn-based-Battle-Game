@@ -12,10 +12,31 @@ In this project, the player faces off against an enemy in a turn-based battle.
   - **Sword** ( Deals 60 damage by default. Each attack reduces damage by 5 until it reaches 30)
   - **Dagger** (Deals 30 damage with a 50% chance to hit twice.)
 
-The goal is to defeat the enemy before being defeated.
+- The goal is to defeat the enemy before being defeated.
+  
+## Relationships between classes
+- Player is an abstract class (has pure virtual defend()).
+- ArmoredPlayer and HealerPlayer inherit from Player.
+- Weapon is an abstract class.
+- Sword and Dagger inherit from Weapon.
+- Enemy is a simple class.
+- 
+Game holds:
+an ArmoredPlayer,
+a HealerPlayer,
+and an Enemy.
+
+**Key Points**
+- Weapon and Player are abstract base classes.
+- Sword, Dagger, ArmoredPlayer, and HealerPlayer are concrete classes.
+- Game owns players and enemy.
+
+Dependency between classes:
+- Player uses Weapon.
+- Weapon attacks Enemy.
+- Game manages the flow.
 
 ---
-
 
 ## How to Play
  Follow the prompts:
