@@ -1,5 +1,5 @@
 # Turn-Based Battle Game
->This project is based on **Exercise 4** from the **BLG 252E Object Oriented Programming** course at Istanbul Technical University.  
+>This project is based on Exercise 4 from the **Object Oriented Programming** course at **Istanbul Technical University**.  
 >The exercise aims to reinforce object-oriented design patterns **inheritance**, **polymorphism**, and **basic game logic** through a simple game.
 >Special thanks to  Res. Assist. Yusuf Kızılkaya at ITU for designing the exercise.
 
